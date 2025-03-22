@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pujan Pharmacy and Clinic</title>
+  <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="images/logo.jpg" alt="Pujan Pharmacy Logo" />
+      <span>Pujan Clinic</span>
+    </div>
+    <div class="contact-info">
+      <a href="tel:+9779844660525">📞 +977 9844660525</a>
+      <a href="mailto:pujanpharmacy@gmail.com">✉️ pujanpharmacy@gmail.com</a>
+    </div>
+  </header>
+
+  <!-- Navbar -->
+  <div class="menu-toggle" id="menu-toggle">
+    &#9776;
+  </div>
+  <nav id="navbar">
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#doctors">Doctors</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" >
+    <div>
+      <h2>WELCOME TO</h2>
+      <h1>Pujan Pharmacy and Clinic</h1>
+      <p>Trusted Healthcare in Dhulabari, Jhapa</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h3>Our Services</h3>
+    <p>We offer pharmacy services, general health check-ups, pediatric care, and consultations with experienced doctors. Visit us for quality and compassionate healthcare!</p>
+    <div id="services_list">
+      <ol>
+        <li class="services_listitem">Specialist OPD</li>
+        <li class="services_listitem">General OPD</li>
+        <li class="services_listitem">Health Counsellings</li>
+        <li class="services_listitem">Pharmacy</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Doctors Section -->
+  <section id="doctors">
+    <h3>Our Doctors</h3>
+    <div class="doctors-container">
+      <div class="doctor-card">
+        <img src="images/karna.jpg" alt="Dr. Karna K Sapkota" />
+        <h4>Dr. Karna K Sapkota</h4>
+        <p>Senior Consultant Paediatrician</p>
+        <p>NMC.NO.2694</p>
+      </div>
+      <div class="doctor-card">
+        <img src="images/dinesh.jpg" alt="Dr. Dinesh Shah" />
+        <h4>Dr. Dinesh Shah</h4>
+        <p>Consultant</p>
+        <p>NMC.NO.16203</p>
+      </div>
+      <div class="doctor-card">
+        <img src="images/chandra.jpg" alt="RH.Chandra Narayan Singh" />
+        <h4>RH. Chandra Narayan Singh</h4>
+        <p>General Medicine</p>
+        <p>NHPC.NO.B258</p>
+
+      </div>
+      <div class="doctor-card">
+        <img src="images/indu.jpg" alt="Smt. Indu Subba Chettri" />
+        <h4>Smt. Indu Subba Chettri</h4>
+        <p>Senior Counsellor</p>
+        <p>NNC.NO.367</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h3>About Us</h3>
+    <p>Pujan Clinic is situated at the heart of Dhulabari, Jhapa. We provide General OPD services to Specialist OPD, Health Counsellings & Pharmacy. Experienced & well-qualified team.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h3>Contact Us</h3>
+    <p>📍 Location: Dhulabari, Jhapa, Nepal<br>
+      <a href="tel:+9779844660525" style="color: #000;
+      text-decoration: none;
+      margin-left: 15px;"> 📞 Phone: +977 9844660525</a><br>
+       ✉️ Email: pujanpharmacy@gmail.com</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Pujan Pharmacy. All rights reserved.<br>
+    <span>Developed By <a href="https://linkedin.com/in/aakashtimsina" style="color: #fff;
+      text-decoration: none;" target="_blank">Aakash Timsina</a></span>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/+9779844660525" class="whatsapp" target="_blank">💬</a>
+
+  <!-- JavaScript For Navigation -->
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+const navbar = document.getElementById('navbar');
+
+menuToggle.addEventListener('click', () => {
+  navbar.classList.toggle('active');
+});
+  </script>
+
+</body>
+</html>
