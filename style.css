@@ -85,7 +85,7 @@ nav ul li a:hover {
 /* ========== HERO ========== */
 .hero {
   background: linear-gradient(90deg, #3498DB 0%, #2980B9 100%);
-  color: #14ff07;
+  color: #fff;
   padding: 60px 20px;
   text-align: center;
 }
